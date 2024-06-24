@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "361327887400",
+    "firebase_url": "https://cuischolarship-23b42-default-rtdb.firebaseio.com",
+    "project_id": "cuischolarship-23b42",
+    "storage_bucket": "cuischolarship-23b42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361327887400:android:2533f59c9ba867d25fe11d",
+        "android_client_info": {
+          "package_name": "com.fyp.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkZAVd__MKZOs8YPIeN_ocwQ3IXXBFjkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361327887400:android:c1f5ba0211f083415fe11d",
+        "android_client_info": {
+          "package_name": "com.usmansarwar.cuischolarship"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkZAVd__MKZOs8YPIeN_ocwQ3IXXBFjkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

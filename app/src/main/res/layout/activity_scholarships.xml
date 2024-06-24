@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scholarships">
+
+    <!-- CardView with TextView inside -->
+
+    <!-- LinearLayout with card views inside -->
+
+    <!-- RecyclerView inside RelativeLayout -->
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="723dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Scholarships"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+                <!-- First CardView -->
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/arrow" />
+
+                <EditText
+                    android:id="@+id/editTextText7"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="start"
+                    android:hint="Search scholarship here"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="57dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:paddingBottom="5dp"
+                    app:srcCompat="@drawable/sharp_search_24" />
+
+                <!-- Second CardView -->
+
+                <!-- Third CardView -->
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="389dp"
+            android:layout_height="594dp"
+            android:layout_below="@+id/cardView2"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="5dp" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
